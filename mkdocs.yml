@@ -1,0 +1,17 @@
+site_name: Core Cs Notes
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+plugins:
+  - search
+  - include-markdown
+
+nav:
+  - Home: index.md
+  - Linux:
+      - Processes: linux/processes.md
+  - Containers:
+      - Overview: containers/overview.md
