@@ -12,7 +12,7 @@ plugins:
 nav:
   - Home: index.md
   - Linux:
-      - files & IO: linux/files/index.md
+      - Files & IO: linux/files/index.md
   - Containers:
       - Overview: containers/overview.md
   
