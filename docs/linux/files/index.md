@@ -24,6 +24,11 @@
 
 - Multiple FDs can share same file description (`dup`, `fork`)
 
+## Fd Example
+```c
+{% include-markdown "./code/file-descriptors.c" %}
+```
+
 ---
 
 ## Standard FDs
