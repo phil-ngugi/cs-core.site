@@ -97,3 +97,6 @@ Every topic is explored through:
   
 ## Other books
 * Mastering Regular Expressions, 3rd edition, by Jeffrey E. F. Friedl (O’Reilly, 2006)
+* Modern Operating Systems, 4th edition, by Andrew S. Tanenbaum and Herbert Bos'
+* Operating System Concepts, 10th edition, by Abraham Silberschatz, Peter B. Galvin, and Greg Gagne (Wiley, 2018)
+
