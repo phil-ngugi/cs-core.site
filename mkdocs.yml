@@ -14,8 +14,8 @@ nav:
   - Linux:
       - Files & IO: linux/files/index.md
       - Overview of Fundamentals: linux/overview.md
-      - Devices: linux/devices.md
-      - Userspace: linux/userspace.md
+      - Devices: linux/devices/index.md
+      - Userspace: linux/userspace/userspace.md
   - Containers:
       - Overview: containers/overview.md
   - C Programming:
