@@ -83,3 +83,17 @@ Every topic is explored through:
 - diagrams of execution flow
 - real code experiments
 - system-level reasoning
+
+| Step | Book Title | Role / Focus | Build Project | K8s Connection |
+| :--- | :--- | :--- | :--- | :--- |
+| **1** | **How Linux Works** (Brian Ward) | The Map (Concepts) | System Audit | OS Plumbing & Infrastructure |
+| **2** | **Learn C the Hard Way** (Zed Shaw) | The Tool (Syntax) | CLI Utility (e.g., `grep`) | Memory & Pointer Logic |
+| **3** | **Operating Systems: Three Easy Pieces** | The Brain (Theory) | Process Scheduler | Virtualization & Isolation |
+| **4** | **CS:APP** (Bryant & O'Hallaron) | The Physics (Hardware) | Assembly Debugging | Performance & Architecture |
+| **5** | **The Linux Programming Interface** | The Mastery (API) | Mini-Container Runtime | Namespaces & Cgroups |
+
+## General Projects
+* Fintech Payment Gateway
+  
+## Other books
+* Mastering Regular Expressions, 3rd edition, by Jeffrey E. F. Friedl (O’Reilly, 2006)

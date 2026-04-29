@@ -13,7 +13,9 @@ nav:
   - Home: index.md
   - Linux:
       - Files & IO: linux/files/index.md
+      - Overview of Fundamentals: linux/overview.md
   - Containers:
       - Overview: containers/overview.md
   - C Programming:
       - UB (Undefined Behavior): c/ub.md
+      - Data Types Indepth: c/data-types.md

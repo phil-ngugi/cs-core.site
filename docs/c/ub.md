@@ -29,7 +29,7 @@ int main() {
 }
 ```
 
-A modern smart compiler might reason that since algebraically $x + 1$ will always be greater than $x$, it can remove the `else` block entirely. However, during **runtime**, if the CPU actually attempts to add $1$ to $x$ and causes an overflow, the `else` block no longer exists to handle it, making the behavior unpredictable.
+A modern smart compiler might reason that since algebraically x + 1 will always be greater than x, it can remove the `else` block entirely. However, during **runtime**, if the CPU actually attempts to add 1 to x and causes an overflow, the `else` block no longer exists to handle it, making the behavior unpredictable.
 
 ---
 
