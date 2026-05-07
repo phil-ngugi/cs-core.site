@@ -17,6 +17,9 @@ nav:
       - Devices: linux/devices/index.md
       - Userspace: linux/userspace/index.md
       - Boot Process: linux/boot-process.md
+      - Vim: linux/vim.md
+  - Cpu:
+      - CPU & Memory: cpu/memory.md
   - Containers:
       - Overview: containers/overview.md
   - C Programming:
