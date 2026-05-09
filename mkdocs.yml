@@ -1,7 +1,7 @@
 site_name: Cs Core
 
 theme:
-  name: material
+  name: simple-blog
   palette:
     scheme: slate
 
@@ -25,3 +25,5 @@ nav:
   - C Programming:
       - UB (Undefined Behavior): c/ub.md
       - Data Types Indepth: c/data-types.md
+  - Operating Systems:
+      - Processes: os/virtualizing-processes.md     
