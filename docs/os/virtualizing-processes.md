@@ -1,21 +1,25 @@
-## Virtualizing CPU
-Time sharing allows concurrent processes by giving them the illusion of them owning the CPU
-To achieve CPU virtualization we need:
- - Mechanisms - low level methods & protocols for implementing some functionality e.g context switch
- - Policies - e.g scheduling policy - the algorithms for making decisions in an OS
+# CPU Virtualization
 
-**Processes** are merely OS abstractions of running programs
+## 1. Virtualization Fundamentals
+* **Time Sharing**: The OS runs one process, then another, creating the illusion of many CPUs.
+* **Mechanism**: Low-level details of how it time sharing is actually achieved (e.g., Context Switch).
+* **Policy**: High-level details of the logic behind what to run (e.g., Scheduler).
 
-OS Data structures - The Os, being a program as any other, must maintain some data structures e.g the **process context**, which stores the content of stopped process registers for when they resume. This structure that stores info about processes is also called  Process Control Block (PCB).
+## 2. Process Management
+* **PCB (Process Control Block)**: The "Object" representing a process in the Kernel.
+* **Context**: The saved registers of a stopped process.
+* **Process States**:
+    - **Running**: Currently on the CPU.
+    - **Ready**: Waiting for its turn.
+    - **Blocked**: Waiting for I/O.
 
-Process APis:
+## 3. Security & Control (LDE)
+* **Direct Execution**: Running at hardware speed.
+* **Limited**: Using CPU Rings to restrict "User Mode" apps.
+* **Traps**: How User Mode asks Kernel Mode for help via System Calls.
+* **Timer Interrupt**: The hardware mechanism that prevents a process from hogging the CPU forever.
 
-exec()  does not create a new process; rather, it transforms the currently running program into a different running program, and reinitializes the process's memory.
-using wait() in the parent process will make it possible for the parent to continue after an exec() in the forked child process, and this is precisely how shells work. they exec() and wait() until your program is done running, then they show the prompt.
-fork(): You split your program into two.
-
-exec() (in the Child): The child transforms into the new application (e.g., ls). The child's original code is replaced.
-
-wait() (in the Parent): The parent process pauses. It doesn't die; it just sits there waiting for a signal.
-
- limited - direct execution
+## 4. The Unix Workflow
+* **Fork**: Clones the process.
+* **Exec**: Replaces the program.
+* **Wait**: Synchronizes Parent with Child.
