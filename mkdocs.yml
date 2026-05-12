@@ -1,7 +1,7 @@
 site_name: Cs Core
 
 theme:
-  name: simple-blog
+  name: material
   palette:
     scheme: slate
 
