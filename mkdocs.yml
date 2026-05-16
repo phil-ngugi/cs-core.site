@@ -27,4 +27,5 @@ nav:
       - Data Types Indepth: c/data-types.md
   - Operating Systems:
       - Processes: os/virtualizing-processes.md 
-      - Virtualizing memory: os/virtualizing-memory.md    
+      - Virtualizing memory: os/virtualizing-memory.md   
+      - Scheduling: os/scheduling.md 
