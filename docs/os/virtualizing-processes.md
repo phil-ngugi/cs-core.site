@@ -1,5 +1,13 @@
 # CPU Virtualization
 
+*Limited direct execution (or LDE)* - . The idea be-
+hind LDE is simple: for the most part, let the program run directly on the
+hardware; however, at certain key points in time (such as when a process
+issues a system call, or a timer interrupt occurs), arrange so that the OS
+gets involved and makes sure the “right” thing happens. Thus, the OS,
+with a little hardware support, tries its best to get out of the way of the
+running program, to deliver an efficient virtualization
+
 ## 1. Virtualization Fundamentals
 * **Time Sharing**: The OS runs one process, then another, creating the illusion of many CPUs.
 * **Mechanism**: Low-level details of how it time sharing is actually achieved (e.g., Context Switch).
