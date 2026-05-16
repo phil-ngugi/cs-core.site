@@ -29,3 +29,4 @@ nav:
       - Processes: os/virtualizing-processes.md 
       - Virtualizing memory: os/virtualizing-memory.md   
       - Scheduling: os/scheduling.md 
+      - Concurrency: os/concurrency.md
