@@ -1,7 +1,4 @@
 # Concurrency: The Challenge of Multiple Threads
-
-These notes summarize the second major "piece" of the book, focusing on how the OS manages multiple execution points within a single address space (Chapters 26-32).
-
 ## 1. The Abstraction: The Thread 
 - **Definition**: A thread is similar to a process but shares the same address space (code, heap, and static data). Each thread has its own **Program Counter (PC)** and **Stack**.
 - **Context Switching**: Like processes, threads require a context switch. The OS saves the state to a **Thread Control Block (TCB)**.
