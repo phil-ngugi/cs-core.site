@@ -30,3 +30,6 @@ nav:
       - Virtualizing memory: os/virtualizing-memory.md   
       - Scheduling: os/scheduling.md 
       - Concurrency: os/concurrency.md
+  - How stuff works:
+      - How keyboards work: walkthroughs/how-keyboards-work.md
+      - How network requests are made: walkthroughs/how-network-calls-work.md
