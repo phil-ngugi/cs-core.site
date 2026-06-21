@@ -33,3 +33,5 @@ nav:
   - How stuff works:
       - How keyboards work: walkthroughs/how-keyboards-work.md
       - How network requests are made: walkthroughs/how-network-calls-work.md
+      - How DB Connection Works: walkthroughs/how-db-connection-works.md
+      
