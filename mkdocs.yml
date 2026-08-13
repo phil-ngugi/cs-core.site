@@ -11,6 +11,9 @@ plugins:
 
 nav:
   - Home: index.md
+  - Kubernetes:
+      - Volumes: kubernetes/volumes.md
+      - Containers: linux/containers/index.md
   - Linux:
       - Files & IO: linux/files/index.md
       - Overview of Fundamentals: linux/overview.md
@@ -18,6 +21,7 @@ nav:
       - Userspace: linux/userspace/index.md
       - Boot Process: linux/boot-process.md
       - Vim: linux/vim.md
+      
   - Cpu:
       - CPU & Memory: cpu/memory.md
   - Containers:
