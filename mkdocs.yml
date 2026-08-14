@@ -21,6 +21,7 @@ nav:
       - Userspace: linux/userspace/index.md
       - Boot Process: linux/boot-process.md
       - Vim: linux/vim.md
+      - Storage: linux/storage.md 
       
   - Cpu:
       - CPU & Memory: cpu/memory.md
