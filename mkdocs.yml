@@ -12,6 +12,7 @@ plugins:
 nav:
   - Home: index.md
   - Kubernetes:
+      - Roadmap: kubernetes/index.md
       - Volumes: kubernetes/volumes.md
       - Containers: linux/containers/index.md
   - Linux:
