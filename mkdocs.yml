@@ -11,10 +11,14 @@ plugins:
 
 nav:
   - Home: index.md
+  - German:
+      - Home: German/index.md
   - Kubernetes:
       - Roadmap: kubernetes/index.md
       - Volumes: kubernetes/volumes.md
       - Containers: linux/containers/index.md
+      - Authentication: kubernetes/authentication.md
+      
   - Linux:
       - Files & IO: linux/files/index.md
       - Overview of Fundamentals: linux/overview.md
