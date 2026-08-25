@@ -14,11 +14,12 @@ nav:
   - German:
       - Home: German/index.md
   - Kubernetes:
+      - Kubectl: kubernetes/kubectl-shortcuts.md
       - Roadmap: kubernetes/index.md
       - Volumes: kubernetes/volumes.md
       - Containers: linux/containers/index.md
       - Authentication: kubernetes/authentication.md
-      
+
   - Linux:
       - Files & IO: linux/files/index.md
       - Overview of Fundamentals: linux/overview.md
